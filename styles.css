@@ -23,15 +23,28 @@ img{
 ol{
     list-style-position: inside;
 }
+h3{
+    margin: 10px 0;
+}
 
 .primary-btn{
-    padding: 15px 20px;
+    padding: 10px 20px;
     cursor: pointer;
     border: 1px solid #EB5757;
     border-radius: 8px;
     background-color: #EB5757;
     color: #fff;
     font-weight: bold;
+}
+.calender{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.calender-more{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 #item-container{
     display: grid;
